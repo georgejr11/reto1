@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const MyHomePage(title: 'Convertidor'),
+      home: const MyHomePage(title: 'App - Cambio de divisas'),
     );
   }
 }
@@ -41,18 +41,19 @@ List<DropdownMenuItem<String>> listaMoneda = <DropdownMenuItem<String>>[
 ];
 
 List<calculadora> cal = <calculadora>[
-  calculadora("7", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("8", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("9", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("4", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("5", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("6", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("1", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("2", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("3", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("0", Colors.blueGrey, Icon(Icons.abc)),
-  calculadora("Limpiar", Colors.blueGrey, Icon(Icons.cleaning_services)),
-  calculadora("=", Colors.blueGrey, Icon(Icons.abc)),
+  calculadora("7", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("8", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("9", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("4", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("5", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("6", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("1", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("2", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("3", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("0", Color.fromARGB(255, 117, 200, 200), Icon(Icons.abc)),
+  calculadora("Limpiar", Color.fromARGB(255, 118, 173, 201),
+      Icon(Icons.cleaning_services)),
+  calculadora("=", Color.fromARGB(255, 118, 173, 201), Icon(Icons.abc)),
 ];
 
 class MyHomePage extends StatefulWidget {
